@@ -1,3 +1,3 @@
-const removeDup = (arr: number[]): number[] => Array.from(new Set(arr));
+const removeDuplicates = (arr: number[]): number[] => Array.from(new Set(arr));
 
-console.log(removeDup([1, 2, 2, 3, 4, 4, 5]));
+console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
